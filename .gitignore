@@ -1,0 +1,37 @@
+# Roblox Studio files
+*.rbxl
+*.rbxlx
+*.rbxm
+*.rbxmx
+
+# Rojo files
+/rojo.json
+/.rojo-cache/
+
+# System files
+.DS_Store
+Thumbs.db
+
+# Lua compiler output
+*.lua.bytecode
+
+# Environment variables and secrets
+.env
+.env.local
+.env.*.local
+
+# Editor directories
+.vscode/
+.idea/
+
+# Temporary files
+*.tmp
+*.bak
+*.swp
+
+# Build output
+/build/
+/out/
+
+# Logs
+*.log
