@@ -118,4 +118,12 @@ function SystemInitializer:Start()
     return successCount == totalSystems
 end
 
+-- Run the initializer
+local success = SystemInitializer:Start()
+if success then
+    print("All systems initialized successfully!")
+else
+    warn("Some systems failed to initialize. Check logs for details.")
+end
+
 return SystemInitializer
